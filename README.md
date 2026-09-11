@@ -4,8 +4,8 @@ DVRN is a deliberately vulnerable React Native application built to demonstrate 
 
 It's the practical companion to a two-part blog series on testing React Native applications:
 
-- **Part 1:** [Understanding React Native Apps: A Pentester's Field Guide](_placeholder-part-1-link_)
-- **Part 2:** [Exploiting React Native Apps: A Hands-On Walkthrough with DVRN](_placeholder-part-2-link_)
+- **Part 1:** [Understanding React Native Apps: A Pentester's Field Guide](https://waseeq14.github.io/posts/react-native-pentesting-fundamentals)
+- **Part 2:** [Exploiting React Native Apps: A Hands-On Walkthrough with DVRN](https://waseeq14.github.io/posts/react-native-pentesting-with-dvrn)
 
 Read Part 1 first if you're new to testing React Native apps — it covers the concepts (bridge vs. new architecture, Hermes vs. JSC, bundle extraction) this repo assumes you already understand.
 
