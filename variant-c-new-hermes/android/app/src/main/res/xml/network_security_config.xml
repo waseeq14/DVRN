@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- A custom networkSecurityConfig overrides the manifest's
+         usesCleartextTraffic attribute entirely (not just adds to it), so a
+         base-config is needed here to keep the same cleartext behavior Metro's
+         own dev tooling (packager status check, Fast Refresh websocket)
+         relies on via localhost. DVRN's mock backend also runs on the host
+         machine over plain HTTP, reached via the emulator's loopback alias -
+         fine for local dev infra, not a real deployed backend. -->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
